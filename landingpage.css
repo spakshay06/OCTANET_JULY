@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 10px
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+body{
+    background-image:url('https://w0.peakpx.com/wallpaper/400/451/HD-wallpaper-plant-leaves-water-drops-dark-background-nature.jpg')
+    
+}
+body{
+    background-size: cover;
+    font-family: 'Manrope', sans-serif;
+    background-attachment: fixed;
+}
+.parent{
+    width:1000px;
+    height:300px;
+    display: flex;
+    margin:auto;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    color: black;
+    
+}
+.child1,.child2,.child3,.child4{
+    background-color: #72747d;
+    height: 410px;
+    width: 200px;
+   box-shadow: 2px 3px 8px 	#1f1414;
+   justify-content: space-evenly;
+   text-align: center;
+   color: #1f1414;
+   
+}
+img{
+ border-radius: 50%;
+ padding: 20px;
+}
+.one{
+    background-color: lightslategrey;
+    border-radius:30px ;
+    display:inline;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.two{
+    background-color: rgb(248, 176, 43);
+    border-radius:30px ;
+    display:inline;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.three{
+    background-color: rgb(210, 137, 210);
+    border-radius:30px ;
+    display:inline;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.four{
+    background-color: rgb(210, 137, 210);
+    border-radius:30px ;
+    display:inline;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h5{
+    font-weight: bold;
+}
+p{
+    font-size: smaller;
+    padding-top:10px;
+    color: black;
+}
+.mainh1{
+    color: rgb(246, 243, 117);
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.firstpage{
+    text-align: center;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #5c1467;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+  }
+  
+  form.example button:hover {
+    background: #8455d6;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }  
+.unlock{
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: grey;
+}
+.pagename{
+    font-size: 200px;
+    color: #d7def0c9;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 150px;
+}
+.btn{
+    background-color: #5baf59;
+    padding: 5px;
+    border-radius: 20px;
+}
+.buttn{
+    background-color: #1f1414;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
